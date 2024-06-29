@@ -1,0 +1,56 @@
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/* middle sections */
+.homeSection .middleSection {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+    padding: 1rem;
+}
+
+.homeSection .middleSection .middleSectionContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.homeSection .middleSection .middleSectionContainer .boxes {
+    border-right: 3px solid black;
+    padding: .2rem 1.5rem;
+    text-align: center;
+    width: 25%;
+    font-size: .8em;
+}
+
+.homeSection .middleSection .middleSectionContainer .boxes p {
+    letter-spacing: .12em;
+}
+
+.homeSection .middleSection .middleSectionContainer .boxes h2 {
+    font-weight: 550;
+    font-size: 1.8em;
+}
+
+.homeSection .middleSection .middleSectionContainer .boxes:last-child {
+    border-right: none;
+}
+
+/* bottom section */
+.bottomSection{
+    position: relative;
+    top: 1rem;
+}

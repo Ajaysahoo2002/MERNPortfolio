@@ -1,0 +1,122 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+.footerSection {
+    margin-top: auto;
+}
+
+            /* css for toastify buttons */
+.Toastify__close-button{
+    display: inline-block;
+    width: fit-content;
+}
+
+/* code for all buttons */
+button {
+    width: 100%;
+    padding: .5rem 2rem;
+    border: transparent;
+    border-radius: .3rem;
+    background-color: green;
+    transition: .2s ease-in-out all;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, .7);
+}
+
+
+
+                                                /* for home and about page */
+.aboutPage{
+    height: 100vh;
+}
+.homeSection,
+.aboutPage {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 10rem;
+    color: white;
+    background-color: rgb(35, 35, 35);
+}
+
+.homeSection .topSection,
+.homeSection .bottomSection,
+.aboutPage .topSection {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeSection .topSection img,
+.homeSection .bottomSection img,
+.aboutPage .topSection img {
+    height: 50vh;
+    border-radius: 50%;
+}
+
+.homeSection .topSection .leftSection,
+.homeSection .bottomSection .bottomRightSection,
+.aboutPage .topSection .leftSection {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeSection .topSection .leftSection h1 {
+    width: 50%;
+    letter-spacing: .2rem;
+}
+
+.homeSection button,
+.aboutPage button {
+    width: fit-content;
+    margin-top: 0;
+    color: white;
+}
+
+.homeSection .buttons,
+.aboutPage .buttons {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.homeSection #btn1,
+.aboutPage #btn1 {
+    border: 2px solid transparent;
+}
+
+.homeSection #btn1:hover,
+.aboutPage #btn1:hover {
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+.homeSection .buttons #btn2,
+.aboutPage .buttons #btn2 {
+    margin-left: 1rem;
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+.homeSection .buttons #btn2:hover,
+.aboutPage .buttons #btn2:hover {
+    background-color: green;
+}

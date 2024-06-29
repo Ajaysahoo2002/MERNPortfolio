@@ -1,0 +1,47 @@
+.errorPage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(3, 0, 0, .89);
+    color: white;
+}
+
+.errorPage .container {
+    width: 40%;
+}
+
+.errorPage .container h1 {
+    font-size: 10em;
+    background:linear-gradient(to right bottom, green, #5f0162);
+    -webkit-background-clip:text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.errorPage .container h2 {
+    margin-bottom: .5rem;
+}
+
+.errorPage .container .btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.errorPage .container .btns button {
+    margin-top: 0;
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    border-radius: 1rem;
+}
+
+.errorPage .container .btns button:hover {
+    background-color: green;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,67 @@
+.contactPage {
+    background-color: rgba(0, 0, 0, .9);
+    padding: 3rem 13rem;
+    color: white;
+}
+
+.contactPage h1 {
+    width: 30%;
+    text-align: center;
+}
+
+.contactPage .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+}
+
+.left img {
+    height: 50vh;
+    border-radius: 50%;
+}
+
+.right {
+    width: 50%;
+    height: max-content;
+    padding: .5rem 1rem;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.right .labels {
+    display: flex;
+    flex-direction: column;
+    margin: .3rem 0;
+}
+
+.right .labels input, .right .labels textarea {
+    width: 70%;
+    padding: .5rem;
+    border-radius: .3rem;
+    border-color: transparent;
+    background-color: rgba(89, 88, 88, 0.4);
+    color: white;
+}
+.right .labels textarea {
+    height: 20vh;
+}
+.right form button{
+    width: fit-content;
+}
+.right form button:hover{
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+}

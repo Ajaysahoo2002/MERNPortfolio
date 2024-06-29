@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    padding: .5rem 0 ;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer .container .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.social-links li {
+    margin: 0 10px;
+    list-style: none;
+}
+.social-links li{
+    font-size: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4CAF50;
+}

@@ -1,0 +1,88 @@
+.adminPage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 2.5rem;
+    height: auto;
+    padding: .5rem 6rem;
+}
+
+.adminPage nav {
+    width: fit-content;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.adminPage li {
+    margin: 1rem 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.adminPage li a {
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.adminPage li a:hover {
+    background-color: gray;
+}
+
+.adminPage li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+/*style the table */
+.adminPage h2 {
+    margin: .5rem 0;
+}
+
+.adminPage table {
+    height: auto;
+    width: auto;
+    text-align: center;
+    border: 0 solid transparent;
+    border-collapse: collapse;
+}
+
+
+.adminPage table thead tr {
+    transition: all .2s ease-in-out;
+
+}
+
+.adminPage table thead tr th {
+    background-color: green;
+    color: white;
+    padding: .5rem 1.5rem;
+    margin: .5rem;
+}
+
+.adminPage table tbody tr td button {
+    margin-top: 0;
+}
+
+.adminPage table tbody tr td {
+    padding: .5rem 1rem;
+}
+
+.adminPage table tbody tr:hover {
+    background-color: rgba(40, 40, 40, .3);
+    cursor: pointer;
+}
+
+.adminPage table tr:nth-child(odd) {
+    background-color: grey;
+}
+
+/* style the admin update page */
+
